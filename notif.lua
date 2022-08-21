@@ -1,3 +1,4 @@
+wait(7)
 game.StarterGui:SetCore("SendNotification", {
 Title = "System"; -- the title (ofc)
 Text = "Script Activated"; -- what the text says (ofc)
